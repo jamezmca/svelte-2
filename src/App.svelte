@@ -1,6 +1,11 @@
 <script>
 	export let name;
+	import Login from './Login.svelte'
 </script>
+
+<svelte:head>
+	
+</svelte:head>
 
 <main>
 	<h1>Hello {name}!</h1>
